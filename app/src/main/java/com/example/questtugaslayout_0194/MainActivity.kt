@@ -110,4 +110,10 @@ fun CardDosen(dosen: Dosen, modifier: Modifier = Modifier) {
             .background(colorResource(dosen.warnaCard))
             .padding(dimensionResource(R.dimen.card_padding)),
         verticalAlignment = Alignment.CenterVertically
-    )
+    ) {
+        LogoUmy()
+        Column(
+            modifier = Modifier
+                .weight(1f)
+                .padding(horizontal = dimensionResource(R.dimen.card_padding))
+        )
