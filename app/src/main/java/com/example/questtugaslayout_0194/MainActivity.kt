@@ -87,3 +87,12 @@ fun HalamanUtama(modifier: Modifier = Modifier) {
         ) {
             items(daftar) { dosen -> CardDosen(dosen) }
         }
+
+        Text(
+            text = stringResource(R.string.copyright),
+            color = colorResource(R.color.text_black),
+            fontSize = dimensionResource(R.dimen.text_footer).value.sp,
+            modifier = Modifier.padding(vertical = dimensionResource(R.dimen.gap_card))
+        )
+    }
+}
