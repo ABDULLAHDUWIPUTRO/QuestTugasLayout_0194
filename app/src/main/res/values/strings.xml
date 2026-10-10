@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">QuestTugasLayout_0194</string>
+    <string name="title">Teknologi Informasi</string>
+    <string name="subtitle">Universitas Muhammadiyah Yogyakarta</string>
+    <string name="copyright">Copyright, 2026</string>
+    <string name="logo_desc">Logo Universitas Muhammadiyah Yogyakarta</string>
+
+    <string name="name_1">ABDULLAH DUWIPUTRO</string>
+    <string name="loc_1">Pekanbaru, Riau</string>
+
+    <string name="name_2">Mambang samudra ilahi cihuy</string>
+    <string name="phone_2">085436874190</string>
+    <string name="loc_2">Pekanbaru, Riau</string>
+
+    <string name="name_3">akif krah krah</string>
+    <string name="phone_3">085436874190</string>
+    <string name="loc_3">Pekanbaru, Riau</string>
+
+    <string name="name_4">calvin novrianto kopling</string>
+    <string name="phone_4">085436874190</string>
+    <string name="loc_4">Pekanbaru, Riau</string>
 </resources>
