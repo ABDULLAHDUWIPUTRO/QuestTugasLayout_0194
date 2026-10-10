@@ -78,3 +78,4 @@ fun HalamanUtama(modifier: Modifier = Modifier) {
             fontWeight = FontWeight.Bold,
             textAlign = TextAlign.Center
         )
+        Spacer(Modifier.height(dimensionResource(R.dimen.gap_card)))
