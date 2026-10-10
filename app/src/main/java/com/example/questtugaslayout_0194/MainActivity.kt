@@ -142,3 +142,12 @@ fun CardDosen(dosen: Dosen, modifier: Modifier = Modifier) {
         LogoUmy()
     }
 }
+
+@Composable
+fun LogoUmy() {
+    Image(
+        painter = painterResource(R.drawable.logo_umy),
+        contentDescription = stringResource(R.string.logo_desc),
+        modifier = Modifier.size(dimensionResource(R.dimen.logo_size))
+    )
+}
