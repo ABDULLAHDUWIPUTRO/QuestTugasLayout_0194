@@ -125,3 +125,10 @@ fun CardDosen(dosen: Dosen, modifier: Modifier = Modifier) {
                 fontStyle = if (dosen.namaCursive) FontStyle.Italic else FontStyle.Normal,
                 fontFamily = if (dosen.namaCursive) FontFamily.Cursive else FontFamily.Default
             )
+            dosen.telepon?.let {
+                Text(
+                    text = stringResource(it),
+                    color = colorResource(R.color.text_cyan),
+                    fontSize = dimensionResource(R.dimen.text_detail).value.sp
+                )
+            }
