@@ -132,3 +132,13 @@ fun CardDosen(dosen: Dosen, modifier: Modifier = Modifier) {
                     fontSize = dimensionResource(R.dimen.text_detail).value.sp
                 )
             }
+            Spacer(Modifier.height(dimensionResource(R.dimen.gap_small)))
+            Text(
+                text = stringResource(dosen.lokasi),
+                color = colorResource(dosen.warnaLokasi),
+                fontSize = dimensionResource(R.dimen.text_detail).value.sp
+            )
+        }
+        LogoUmy()
+    }
+}
