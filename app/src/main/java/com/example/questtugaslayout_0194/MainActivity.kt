@@ -71,3 +71,10 @@ fun HalamanUtama(modifier: Modifier = Modifier) {
             fontWeight = FontWeight.Bold,
             textAlign = TextAlign.Center
         )
+        Text(
+            text = stringResource(R.string.subtitle),
+            color = colorResource(R.color.text_black),
+            fontSize = dimensionResource(R.dimen.text_subtitle).value.sp,
+            fontWeight = FontWeight.Bold,
+            textAlign = TextAlign.Center
+        )
