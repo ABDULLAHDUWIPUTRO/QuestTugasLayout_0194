@@ -84,4 +84,6 @@ fun HalamanUtama(modifier: Modifier = Modifier) {
         LazyColumn(
             modifier = Modifier.weight(1f),
             verticalArrangement = Arrangement.spacedBy(dimensionResource(R.dimen.gap_card))
-        )
+        ) {
+            items(daftar) { dosen -> CardDosen(dosen) }
+        }
