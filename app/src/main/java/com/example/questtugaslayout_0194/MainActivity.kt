@@ -116,4 +116,12 @@ fun CardDosen(dosen: Dosen, modifier: Modifier = Modifier) {
             modifier = Modifier
                 .weight(1f)
                 .padding(horizontal = dimensionResource(R.dimen.card_padding))
-        )
+        ) {
+            Text(
+                text = stringResource(dosen.nama),
+                color = colorResource(R.color.text_white),
+                fontSize = dimensionResource(R.dimen.text_name).value.sp,
+                fontWeight = if (dosen.namaCursive) FontWeight.Normal else FontWeight.Bold,
+                fontStyle = if (dosen.namaCursive) FontStyle.Italic else FontStyle.Normal,
+                fontFamily = if (dosen.namaCursive) FontFamily.Cursive else FontFamily.Default
+            )
